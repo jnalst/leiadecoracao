@@ -1,0 +1,111 @@
+.footer-bg {
+    background: var(--p1);
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    grid-template-areas: 
+    "imagem contato"
+    "direitos direitos";
+}
+
+.footer > img {
+    grid-area: imagem;
+    width: 40rem;
+}
+
+.footer .footer-dados{
+    grid-area: contato;
+    background: var(--p1-2);
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.25);
+    border-radius: 4rem;
+    margin-inline: 2rem;
+}
+
+.footer .footer-dados h2 {
+    font: 400 4.8rem/ 66.77px "Bad Script", sans-serif;
+    padding-left: 5rem;
+    padding-top: 2.5rem;
+}
+
+.footer-dados-a {
+    display: grid;
+    padding-left: 5rem;
+    padding-block: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.footer .footer-dados a{
+    font: 400 1.8rem/1.5 "Roboto", sans-serif;
+}
+
+.footer-dados p {
+    padding-left: 5rem;
+    font: 400 1.8rem/1.5 "Roboto", sans-serif;
+}
+
+.footer-dados .footer-redes{
+    display: flex;
+    place-content: center;
+    gap: 2rem;
+    padding-block: 2.5rem;
+    
+}
+.footer-dados .footer-redes img {
+    width: 5rem;
+}
+
+.footer > p {
+    grid-area: direitos;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    font: 400 1.8rem/1.5 "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        grid-template-areas: 
+        "contato"
+        "direitos";
+    }
+
+    .footer > img {
+        display: none;
+    }
+
+    .footer .footer-dados{
+        grid-area: contato;
+        background: var(--p1-2);
+        box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.25);
+        border-radius: 4rem;
+        margin-inline: 0rem;
+    }
+
+    .footer .footer-dados h2 {
+        font: 400 3.8rem/ 48px "Bad Script", sans-serif;
+        padding-left: 2.5rem;
+    }
+
+    .footer .footer-dados-a {
+        font: 400 1.4rem/1.5 "Roboto", sans-serif;
+        padding-left: 2.5rem;
+    }
+
+    .footer-dados p {
+        font: 400 1.6rem/1.5 "Roboto", sans-serif;
+        padding-left: 2.5rem;
+    }
+
+    .footer > p {
+        grid-area: direitos;
+        padding-top: 2.5rem;
+        padding-bottom: 1rem;
+        font: 400 1.6rem/1.5 "Roboto", sans-serif;
+    }
+
+}

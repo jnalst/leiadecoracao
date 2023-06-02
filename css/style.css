@@ -1,0 +1,13 @@
+@import "./global/global.css";
+@import "./utilitarios/utilitariosdosite.css";
+@import "./utilitarios/cores.css";
+@import "./header/header.css";
+@import "./intro/introducao.css";
+@import "./escolha/escolha.css";
+@import "./diferencial/diferencial.css";
+@import "./opiniaocliente/cliente.css";
+@import "./planos/planos.css";
+@import "./galeria/galeria.css";
+@import "./orcamento/orcamento.css";
+@import "./utilitarios/formulario.css";
+@import "./footer/footer.css";

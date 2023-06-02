@@ -1,0 +1,197 @@
+.plano-bg {
+    background: #F7D164 url(../../img/dec/dec.svg) no-repeat bottom 3rem left 3rem;
+}
+
+.plano-titulo {
+    padding-top: 6rem;
+}
+
+.plano-titulo span {
+    font: 700 2.4rem/1.5 "Poppis", sans-serif;
+    text-transform: uppercase
+}
+
+.plano-titulo h2 {
+    font: 400 4.8rem/ 66.77px "Bad Script", sans-serif;
+}
+
+.planos-conteudo {
+    padding-top: 6rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-inline: auto;
+    gap: 3rem;
+    overflow-x: auto;
+}
+
+.planos-conteudo>li {
+    min-width: 290px;
+}
+
+.planos-conteudo .plano-pacote1-bg {
+    background: var(--p6);
+    color: var(--w);
+    border-radius: 2rem;
+    padding-left: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-right: 0rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.planos-conteudo .plano-pacote2-bg {
+    background: var(--p5-2);
+    color: var(--w);
+    border-radius: 2rem;
+    padding-left: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-right: 0rem;
+    margin-top: 5rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.planos-conteudo .plano-pacote3-bg {
+    background: var(--p6);
+    color: var(--w);
+    border-radius: 2rem;
+    padding-left: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-right: 0rem;
+    margin-top: 10rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+
+.planos-conteudo .plano-pacote4-bg {
+    background: var(--p5-2);
+    color: var(--w);
+    border-radius: 2rem;
+    padding-left: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-right: 0rem;
+    margin-top: 20rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.plano-lista li {
+    position: relative;
+
+}
+
+.plano-lista li::before {
+    content: "";
+    display: inline-block;
+    width: 1.3rem;
+    height: .9rem;
+    background-image: url("../../img/icones/lista.svg");
+    position: absolute;
+    left: -2.1rem;
+    top: .8rem;
+}
+
+
+.planos-conteudo h2 {
+    font: 700 2.8rem/1.5 "Poppis", sans-serif;
+    padding-bottom: 4rem;
+    display: inline-block;
+    padding-top: .3rem;
+    max-width: max-content;
+}
+
+.planos-conteudo .plano-lista {
+    font: 500 1.8rem/1.5 "Roboto", sans-serif;
+    max-width: 25ch;
+    padding-right: 2.5rem;
+}
+
+.planos-conteudo .plano-lista li {
+    padding-bottom: 2rem;
+}
+
+.plano-titulobox {
+    display: flex;
+    align-items: baseline;
+    max-width: max-content;
+}
+
+.plano-titulobox .plano-cifrao {
+    background: #b8a2a281;
+    padding: .3rem 1.25rem;
+    display: inline-block;
+    place-self: start end;
+    border-radius: 2rem 0 0 2rem;
+    margin-left: 5.9rem;
+    align-items: baseline;
+    font: 700 1.8rem/1.5 "Poppis", sans-serif;
+    text-align: end;
+    max-width: max-content;
+}
+
+.plano-titulobox .plano-valor {
+    font: 700 2.4rem/1.5 "Poppis", sans-serif;
+    max-width: max-content;
+}
+
+.plano-aviso {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    display: grid;
+}
+
+.plano-aviso h3 {
+    margin: 0 auto;
+    font: 600 2rem/1.5 "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    .plano-bg {
+        background: #F7D164;
+    }
+
+    .planos-conteudo .plano-pacote2-bg {
+        margin-top: 0rem;
+    }
+
+    .planos-conteudo .plano-pacote3-bg {
+        margin-top: 0rem;
+    }
+
+
+    .planos-conteudo .plano-pacote4-bg {
+        margin-top: 0rem;
+    }
+
+    .plano-titulo {
+        padding-top: 4rem;
+    }
+
+    .plano-titulo span {
+        font: 600 2.4rem/1.5 "Poppis", sans-serif;
+    }
+
+    .plano-titulo h2 {
+        font: 400 3.8rem/ 48px "Bad Script", sans-serif;
+        margin-top: 2rem;
+    }
+
+    .planos-conteudo {
+        padding-top: 4rem;
+    }
+
+    .planos-conteudo .plano-lista {
+        font: 500 1.6rem/1.5 "Roboto", sans-serif;
+    }
+
+    .plano-aviso {
+        padding-top: 2rem;
+    }
+
+    .plano-aviso h3 {
+        font: 600 1.8rem/1.5 "Roboto", sans-serif;
+    }
+
+}

@@ -1,0 +1,122 @@
+.cliente-lista {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  background: url(../../img/dec/dec.svg) no-repeat top 3rem right 3rem;
+}
+
+.cliente-lista > h2 {
+  margin-bottom: 4rem;
+  font: 400 4.8rem/ 66.77px "Bad Script", sans-serif;
+}
+
+.cliente-lista ul {
+  display: flex;
+  gap: 4rem;
+  padding: 0 2rem 2rem 2rem;
+  max-width: 1400px;
+  margin-inline: auto;
+  overflow-x: auto;
+}
+
+.cliente-lista ul li {
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.25);
+  border-radius: 2.5rem;
+}
+
+.cliente-lista ul .cliente1-bg {
+  background: var(--p1);
+}
+
+.cliente-lista ul .cliente2-bg {
+  background: var(--p1-2);
+}
+
+.cliente-lista ul .cliente3-bg {
+  background: var(--p1-3);
+}
+
+.cliente-lista .cliente-dados {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 4.5rem;
+  position: relative;
+}
+
+.cliente-lista .cliente-dados img {
+  width: 6.4rem;
+  height: 6.2rem;
+  padding-top: 1.8rem;
+  padding-left: 2.6rem;
+}
+
+.cliente-lista .cliente-dados h2 {
+  font-family: "Poppins";
+  font-size: 2.3rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 35px;
+  margin-top: 1.5rem;
+  color: var(--w);
+ 
+}
+
+.cliente-lista .cliente-dados::before{
+  content: "";
+  position: absolute;
+  width: 15rem;
+  height: .2rem;
+  background-color: var(--w);
+  top: 10rem;
+  left: 3.5rem;
+}
+
+
+.cliente-lista ul p{
+  font: 400 2rem/1.5 "Roboto", sans-serif;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom:2.5rem;
+  color: var(--w);
+}
+
+.cliente-lista li {
+  min-width: 220px;
+}
+
+@media screen and (max-width: 850px) {
+  .cliente-lista {
+    background: none
+  }
+}
+
+@media screen and (max-width: 800px){
+  .cliente-lista {
+    padding-block: 4rem;
+  }
+
+  .cliente-lista ul{
+    gap: 2rem;
+  }
+
+  .cliente-lista > h2 {
+    font: 400 3.8rem/ 48px "Bad Script", sans-serif;
+  }
+
+  .cliente-lista .cliente-dados img {
+    width: 5.4rem;
+    height: 5.4rem;
+  }
+
+  .cliente-lista .cliente-dados h2  {
+    font-size: 2.2rem;
+  }
+
+  .cliente-lista .cliente-dados::before{
+    top: 9rem;
+  }
+
+  .cliente-lista ul p {
+    font: 400 1.8rem/1.5 "Roboto", sans-serif;
+  }
+}
