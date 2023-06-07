@@ -60,7 +60,7 @@
   line-height: 35px;
   margin-top: 1.5rem;
   color: var(--w);
- 
+  padding-right: 1rem;
 }
 
 .cliente-lista .cliente-dados::before{
