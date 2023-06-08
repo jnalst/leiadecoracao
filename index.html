@@ -10,6 +10,7 @@
   <meta name="description" content="Quer uma festa temática e cheia de personalidade? Nós criamos a decoração ideal para transformar seu sonho em realidade!" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="preload" href="./css/style.css" as="style">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -121,7 +122,7 @@
     <div class="plano-aviso">
       <h3>Lembrando que todos feedbacks podem ser visualizados em nosso instagram.</h3>
     </div>
-    
+
   </article>
 
   <article class="plano-bg">
@@ -225,18 +226,33 @@
     </div>
   </article>
 
-  <article id="galeria" class="galeria container">
+  <article id="galeria" class="galeria">
     <div class="galeria-titulo">
-      <h2>Veja como nossas decorações podem transformar sua festa.</h2>
+      <h2 class="container">Veja como nossas decorações podem transformar sua festa.</h2>
     </div>
-    <ul class="galeria-fotos .container-plano">
+    <!-- <ul class="galeria-fotos .container-plano">
       <li><a href="#"><img src="./img/fotos/galeria 1.jpg" width="550" height="346" alt=""></a></li>
-      <li><a href="#"><img src="./img/fotos/galeria 2.jpg" width="550" height="346" alt=""></a></li>
+      <li><a href="#"></a></li>
       <li><a href="#"><img src="./img/fotos/galeria 3.jpg" width="550" height="346" alt=""></a></li>
       <li><a href="#"><img src="./img/fotos/galeria 4.jpg" width="550" height="346" alt=""></a></li>
       <li><a href="#"><img src="./img/fotos/galeria 5.jpg" width="550" height="346" alt=""></a></li>
       <li><a href="#"><img src="./img/fotos/galeria 6.jpg" width="550" height="346" alt=""></a></li>
-    </ul>
+    </ul> -->
+    <div class="swiper mySwiper container-plano">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./img/fotos/galeria 1.jpg"  alt=""></div>
+        <div class="swiper-slide"><img src="./img/fotos/galeria 2.jpg"  alt=""></div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
   </article>
 
   <article id="orcamento">
@@ -325,7 +341,10 @@
       <p class="corW">LeiaDecorações©. Alguns direitos reservados.</p>
     </div>
   </footer>
+  
 </body>
 <script src="./js/wpp.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="./js/galeria.js"></script>
 
 </html>
