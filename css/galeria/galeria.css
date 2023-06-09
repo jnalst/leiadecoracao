@@ -6,6 +6,10 @@
   padding-bottom: 4rem;
 }
 
+.galeria {
+  background: url(../../img/dec/dec.svg) no-repeat bottom 3rem left 3rem;
+}
+
 .galeria-titulo h2 {
   font: 400 4.8rem/ 66.77px "Bad Script", sans-serif;
 }
@@ -48,9 +52,15 @@
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   border-radius: 4rem;
+}
+
+@media screen and (max-width: 1600px) {
+  .galeria {
+    background: none;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -80,7 +90,7 @@
     padding-bottom: 4rem;
   }
 
-  .swiper .mySwiper > .container-plano {
+  .swiper .mySwiper > .container {
     padding-inline: 0rem;
   }
 }
